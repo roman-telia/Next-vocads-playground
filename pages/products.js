@@ -4,8 +4,9 @@ import {
   TeliaGrid,
   TeliaHeading,
   TeliaP,
+  TeliaPrice,
   TeliaProductCardHardware,
-} from "@teliads/components/react/commonjs";
+} from "@teliads/components/react";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
@@ -37,13 +38,13 @@ export default function Products() {
             <TeliaCol width={4}>
               <TeliaProductCardHardware
                 href="#"
-                badge-title="Erbjudande"
-                badge-variant="special-offer"
-                product-title="iPhone 12 Pro"
-                pre-title="Apple"
-                img-src="https://www.telia.se/dam/jcr:1f591999-434e-4203-9900-2c498d62dfdb/se-front-white-min.png"
+                badgeTitle="Erbjudande"
+                badgeVariant="special-offer"
+                productTitle="iPhone 12 Pro"
+                preTitle="Apple"
+                imgSrc="https://www.telia.se/dam/jcr:1f591999-434e-4203-9900-2c498d62dfdb/se-front-white-min.png"
               >
-                <telia-price
+                <TeliaPrice
                   slot="price"
                   price="20"
                   currency="€"
@@ -54,13 +55,13 @@ export default function Products() {
             <TeliaCol width={4}>
               <TeliaProductCardHardware
                 href="#"
-                badge-title="Erbjudande"
-                badge-variant="special-offer"
-                product-title="iPhone 12 Pro"
-                pre-title="Apple"
-                img-src="https://www.telia.se/dam/jcr:1f591999-434e-4203-9900-2c498d62dfdb/se-front-white-min.png"
+                badgeTitle="Erbjudande"
+                badgeVariant="special-offer"
+                productTitle="iPhone 12 Pro"
+                preTitle="Apple"
+                imgSrc="https://www.telia.se/dam/jcr:1f591999-434e-4203-9900-2c498d62dfdb/se-front-white-min.png"
               >
-                <telia-price
+                <TeliaPrice
                   slot="price"
                   price="20"
                   currency="€"
@@ -71,13 +72,13 @@ export default function Products() {
             <TeliaCol width={4}>
               <TeliaProductCardHardware
                 href="#"
-                badge-title="Erbjudande"
-                badge-variant="special-offer"
-                product-title="iPhone 12 Pro"
-                pre-title="Apple"
-                img-src="https://www.telia.se/dam/jcr:1f591999-434e-4203-9900-2c498d62dfdb/se-front-white-min.png"
+                badgeTitle="Erbjudande"
+                badgeVariant="special-offer"
+                productTitle="iPhone 12 Pro"
+                preTitle="Apple"
+                imgSrc="https://www.telia.se/dam/jcr:1f591999-434e-4203-9900-2c498d62dfdb/se-front-white-min.png"
               >
-                <telia-price
+                <TeliaPrice
                   slot="price"
                   price="20"
                   currency="€"
@@ -88,13 +89,13 @@ export default function Products() {
             <TeliaCol width={4}>
               <TeliaProductCardHardware
                 href="#"
-                badge-title="Erbjudande"
-                badge-variant="special-offer"
-                product-title="iPhone 12 Pro"
-                pre-title="Apple"
-                img-src="https://www.telia.se/dam/jcr:1f591999-434e-4203-9900-2c498d62dfdb/se-front-white-min.png"
+                badgeTitle="Erbjudande"
+                badgeVariant="special-offer"
+                productTitle="iPhone 12 Pro"
+                preTitle="Apple"
+                imgSrc="https://www.telia.se/dam/jcr:1f591999-434e-4203-9900-2c498d62dfdb/se-front-white-min.png"
               >
-                <telia-price
+                <TeliaPrice
                   slot="price"
                   price="20"
                   currency="€"
@@ -105,13 +106,13 @@ export default function Products() {
             <TeliaCol width={4}>
               <TeliaProductCardHardware
                 href="#"
-                badge-title="Erbjudande"
-                badge-variant="special-offer"
-                product-title="iPhone 12 Pro"
-                pre-title="Apple"
-                img-src="https://www.telia.se/dam/jcr:1f591999-434e-4203-9900-2c498d62dfdb/se-front-white-min.png"
+                badgeTitle="Erbjudande"
+                badgeVariant="special-offer"
+                productTitle="iPhone 12 Pro"
+                preTitle="Apple"
+                imgSrc="https://www.telia.se/dam/jcr:1f591999-434e-4203-9900-2c498d62dfdb/se-front-white-min.png"
               >
-                <telia-price
+                <TeliaPrice
                   slot="price"
                   price="20"
                   currency="€"

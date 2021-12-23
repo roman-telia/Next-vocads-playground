@@ -4,7 +4,7 @@ import {
   TeliaGrid,
   TeliaHeading,
   TeliaP,
-} from "@teliads/components/react/commonjs";
+} from "@teliads/components/react";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 

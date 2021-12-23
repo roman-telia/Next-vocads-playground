@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-import { TeliaVocaStats } from "@teliads/components/react/commonjs";
+import { TeliaVocaStats } from "@teliads/components/react";
 
 function MyApp({ Component, pageProps }) {
   return (
